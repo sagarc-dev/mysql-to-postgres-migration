@@ -1,0 +1,1467 @@
+2026-03-19 18:29:30 [INFO    ] Log file: /Users/vasundhara-mac/PycharmProjects/sqltopgcheck/logs/migration_2026-03-19_18-29-30.log
+2026-03-19 18:29:30 [INFO    ] === Migrating Schema ===
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.casting_details
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.consumptiondetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.consumptioninwordmaster
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.consumptionmaster
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.contractormaster
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.deletetestlog
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.designationmaster
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.formreportlink
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.formreportlinkold
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.generalledger
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.invoice
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.invoicedeletehistory
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.invoicedetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.issuereference
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.labempmaster
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.linechart
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.locationmaster
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.locationwisetestmaster
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.login_history
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.logmaster
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.logmobileuser
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.mailsmslog
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.main
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.materialmaster
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.monthinfo
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.mpr1old
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.mpr_jobreceivedold
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.mpr_outwardold
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.mpr_pendingold
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.ob_cbrtest
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.ob_crbdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.ob_crbiterationdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.ob_wood
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.ob_wooddetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggflakiness
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggflakinessdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggflankinessiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggliquid
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggliquiddetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggliquididiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggregate
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggregateabr
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggregateabrdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggregateabriterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggregatedetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggregateiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggregatestr
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggregatestrdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggregatestriterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggsieve
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggsievedetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggsieveiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggsoundness
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggsoundnessdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaggsoundnessiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaluminium
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaluminiumdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obaluminiumiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitudensity
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitudensitydetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitudensityiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbituext1
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbituext1details
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbituext1iterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumarshalldensity
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumarshalldensitydetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumarshalldensityiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumen
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumendetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumenductility
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumenductilitydetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumenductilityiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumeniterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumenviscosity
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumenviscositydetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumenviscosityiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumix
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumixdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumixext2iterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitumixsieveiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbitusieveiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbmjobmix
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbmjobmixdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbmjobmixiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbricks
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbricksdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obbricksiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcementtest
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcementtestcompstrenght
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcementtestconsistancy
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcementtestdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcementtestfitness
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcementtestsettingtime
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcementtestsoundness
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcementtestspecgravity
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcomprstone
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcomprstonedetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obcomprstoneiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obconcretecore
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obconcretecoredetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obconcretecoreiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obconcretecubedetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obconcretecubeiterationdetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obconcretecubetest
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obdryingtime
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obdryingtimedetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obdryingtimeiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obfineaggregate
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obfineaggregatedetails
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obfineaggsieveiterations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obfineaggslititerations
+2026-03-19 18:29:30 [INFO    ]   Creating table: elab.obflooringstone
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obflooringstonedetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obflooringstoneiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obflybricks
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obflybricksdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obflybricksiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obglassbeads
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obglassbeadsdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obglassbeadsiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obgsbsieve
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obgsbsievedetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obgsbsieveiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obhollow
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obhollowdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obhollowiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmangloretiledetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmangloretileiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmangloretiles
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmarshallstabilitydetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmarshallstabilityiterationdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmarshallstabilitytest
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixbituminuosconcrete
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixbituminuosconcretedetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixbituminuosconcreteiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixclosegradedpremix
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixclosegradedpremixdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixclosegradedpremixiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixconcretemixaccldesign
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixconcretemixaccldesigndetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixconcretemixaccldesigniterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixconcretemixdesign
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixconcretemixdesigndetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixconcretemixdesigniterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesigndbm
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesigndbmdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesigndbmiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesigngsb
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesigngsbdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesigngsbiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesignsbdc
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesignsbdcdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesignsbdciterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesignwetmix
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesignwetmixdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdesignwetmixiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdlc
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdlcdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixdlciterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixpqc
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixpqcdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmixpqciterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmorterdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmorteriterationdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmortertest
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurrumcompct
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurrumcompctcbr
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumcompactcbrdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumcompactdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumcompactiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumliquid
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumliquiddetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumliquididiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumsieve
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumsievedetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumsieveiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumswell
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumswelldetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obmurumswelliterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obparticalboard
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obparticaldetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obparticaliterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obpavingblock
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obpavingdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obpavingiterationdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obpipe
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obpipedetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obpipeiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obplywood
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obplywooddetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obplywooditerations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.observationcombo
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obsoftening
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obsofteningdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obsofteningiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obsteel
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obsteeldetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obsteeliterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obstone
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obstonedetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obstoneiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obtiledetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obtileiterations
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.obtiles
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.outwardno
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.paymentdetails
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.periodmaster
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.pwdenggmaster
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.pwdregionmaster
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.pwdregionmasterold
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.raggliquid
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.raggregat
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.raluminium
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rbitudensity
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rbituemix
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rbituext
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rbitumarshalldensity
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rbitumen
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rbitumix
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rbricks
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rcementtest
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rclosegradedpremix
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rcomprstone
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rconcretecore
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rconcretecube
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.receipemaster
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.receipemasterold
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.reportmpr
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rfineaggregat
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rflooringstone
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rflyashbricks
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rgipvcpipe
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rhollowblock
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmangloretiles
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmarshallstability
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmixbituminousconcrete
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmixconcretemixdesign
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmixdbm
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmixdlc
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmixgsb
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmixpqc
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmixsdbc
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmorter
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rmurrum
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rpavingblock
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rplywood
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rprticalboard
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rsteel
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rstone
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rthermoplastic
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rtiles
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rwmm
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.rwood
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.sms_template
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.specifications
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.specificationsold
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.subtestmaster
+2026-03-19 18:29:31 [INFO    ]   Creating table: elab.subtestmasterhistory
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.testmaster
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.testmasterlocal
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.testmaterial
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.testreco
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.testscheduler
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.usermaster
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.userrightsdetails
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.vw_paid_invoices
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.vw_unpaid_invoices
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.work_id_sequence
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.work_id_tracker
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.workmaster
+2026-03-19 18:29:32 [INFO    ]   Creating table: elab.workmaster_pwd
+2026-03-19 18:29:32 [INFO    ] Schema migration complete.
+
+2026-03-19 18:29:32 [INFO    ] === Migrating Data ===
+2026-03-19 18:29:32 [INFO    ]   Migrating data: casting_details
+2026-03-19 18:29:32 [INFO    ]   Migrating data: consumptiondetails
+2026-03-19 18:29:33 [INFO    ]   Migrating data: consumptioninwordmaster
+2026-03-19 18:29:33 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:33 [INFO    ]   Migrating data: consumptionmaster
+2026-03-19 18:29:33 [INFO    ]   Migrating data: contractormaster
+2026-03-19 18:29:33 [INFO    ]   Migrating data: deletetestlog
+2026-03-19 18:29:34 [INFO    ]   Migrating data: designationmaster
+2026-03-19 18:29:34 [INFO    ]   Migrating data: formreportlink
+2026-03-19 18:29:34 [INFO    ]   Migrating data: formreportlinkold
+2026-03-19 18:29:34 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:34 [INFO    ]   Migrating data: generalledger
+2026-03-19 18:29:34 [INFO    ]   Migrating data: invoice
+2026-03-19 18:29:39 [INFO    ]   Migrating data: invoicedeletehistory
+2026-03-19 18:29:39 [INFO    ]   Migrating data: invoicedetails
+2026-03-19 18:29:47 [INFO    ]   Migrating data: issuereference
+2026-03-19 18:29:47 [INFO    ]   Migrating data: labempmaster
+2026-03-19 18:29:47 [INFO    ]   Migrating data: linechart
+2026-03-19 18:29:47 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:47 [INFO    ]   Migrating data: locationmaster
+2026-03-19 18:29:47 [INFO    ]   Migrating data: locationwisetestmaster
+2026-03-19 18:29:48 [INFO    ]   Migrating data: login_history
+2026-03-19 18:29:48 [INFO    ]   Migrating data: logmaster
+2026-03-19 18:29:49 [INFO    ]   Migrating data: logmobileuser
+2026-03-19 18:29:49 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:49 [INFO    ]   Migrating data: mailsmslog
+2026-03-19 18:29:54 [INFO    ]   Migrating data: main
+2026-03-19 18:29:54 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:54 [INFO    ]   Migrating data: materialmaster
+2026-03-19 18:29:54 [WARNING ]     COPY failed for materialmaster (null value in column "t_mat_name" of relation "materialmaster" violates not-null constraint
+DETAIL:  Failing row contains (260, null, null, 0, null, null, null).
+CONTEXT:  COPY materialmaster, line 260: ",,0.0,,,"
+). Falling back to row-by-row insert…
+2026-03-19 18:29:54 [INFO    ]     Fallback done — inserted: 278, skipped: 0
+2026-03-19 18:29:54 [INFO    ]   Migrating data: monthinfo
+2026-03-19 18:29:54 [INFO    ]   Migrating data: mpr1old
+2026-03-19 18:29:54 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:54 [INFO    ]   Migrating data: mpr_jobreceivedold
+2026-03-19 18:29:54 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:54 [INFO    ]   Migrating data: mpr_outwardold
+2026-03-19 18:29:54 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:54 [INFO    ]   Migrating data: mpr_pendingold
+2026-03-19 18:29:54 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:54 [INFO    ]   Migrating data: ob_cbrtest
+2026-03-19 18:29:54 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:54 [INFO    ]   Migrating data: ob_crbdetails
+2026-03-19 18:29:54 [INFO    ]     (no rows, skipping)
+2026-03-19 18:29:54 [INFO    ]   Migrating data: ob_crbiterationdetails
+2026-03-19 18:29:54 [INFO    ]   Migrating data: ob_wood
+2026-03-19 18:29:54 [INFO    ]   Migrating data: ob_wooddetails
+2026-03-19 18:29:54 [INFO    ]   Migrating data: obaggflakiness
+2026-03-19 18:29:55 [INFO    ]   Migrating data: obaggflakinessdetails
+2026-03-19 18:29:55 [INFO    ]   Migrating data: obaggflankinessiterations
+2026-03-19 18:30:03 [INFO    ]   Migrating data: obaggliquid
+2026-03-19 18:30:04 [INFO    ]   Migrating data: obaggliquiddetails
+2026-03-19 18:30:04 [INFO    ]   Migrating data: obaggliquididiterations
+2026-03-19 18:30:04 [INFO    ]   Migrating data: obaggregate
+2026-03-19 18:30:05 [INFO    ]   Migrating data: obaggregateabr
+2026-03-19 18:30:05 [INFO    ]   Migrating data: obaggregateabrdetails
+2026-03-19 18:30:05 [INFO    ]   Migrating data: obaggregateabriterations
+2026-03-19 18:30:05 [INFO    ]   Migrating data: obaggregatedetails
+2026-03-19 18:30:06 [INFO    ]   Migrating data: obaggregateiterations
+2026-03-19 18:30:07 [INFO    ]   Migrating data: obaggregatestr
+2026-03-19 18:30:07 [INFO    ]   Migrating data: obaggregatestrdetails
+2026-03-19 18:30:07 [INFO    ]   Migrating data: obaggregatestriterations
+2026-03-19 18:30:07 [INFO    ]   Migrating data: obaggsieve
+2026-03-19 18:30:09 [INFO    ]   Migrating data: obaggsievedetails
+2026-03-19 18:30:10 [INFO    ]   Migrating data: obaggsieveiterations
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obaggsoundness
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obaggsoundnessdetails
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obaggsoundnessiterations
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obaluminium
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obaluminiumdetails
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obaluminiumiterations
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obbitudensity
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obbitudensitydetails
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obbitudensityiterations
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obbituext1
+2026-03-19 18:30:21 [INFO    ]   Migrating data: obbituext1details
+2026-03-19 18:30:22 [INFO    ]   Migrating data: obbituext1iterations
+2026-03-19 18:30:22 [INFO    ]   Migrating data: obbitumarshalldensity
+2026-03-19 18:30:22 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:22 [INFO    ]   Migrating data: obbitumarshalldensitydetails
+2026-03-19 18:30:22 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:22 [INFO    ]   Migrating data: obbitumarshalldensityiterations
+2026-03-19 18:30:22 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:22 [INFO    ]   Migrating data: obbitumen
+2026-03-19 18:30:22 [INFO    ]   Migrating data: obbitumendetails
+2026-03-19 18:30:22 [INFO    ]   Migrating data: obbitumenductility
+2026-03-19 18:30:22 [INFO    ]   Migrating data: obbitumenductilitydetails
+2026-03-19 18:30:23 [INFO    ]   Migrating data: obbitumenductilityiterations
+2026-03-19 18:30:23 [INFO    ]   Migrating data: obbitumeniterations
+2026-03-19 18:30:23 [INFO    ]   Migrating data: obbitumenviscosity
+2026-03-19 18:30:23 [INFO    ]   Migrating data: obbitumenviscositydetails
+2026-03-19 18:30:24 [INFO    ]   Migrating data: obbitumenviscosityiterations
+2026-03-19 18:30:24 [INFO    ]   Migrating data: obbitumix
+2026-03-19 18:30:24 [INFO    ]   Migrating data: obbitumixdetails
+2026-03-19 18:30:24 [INFO    ]   Migrating data: obbitumixext2iterations
+2026-03-19 18:30:24 [INFO    ]   Migrating data: obbitumixsieveiterations
+2026-03-19 18:30:24 [INFO    ]   Migrating data: obbitusieveiterations
+2026-03-19 18:30:24 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:24 [INFO    ]   Migrating data: obbmjobmix
+2026-03-19 18:30:24 [INFO    ]   Migrating data: obbmjobmixdetails
+2026-03-19 18:30:24 [INFO    ]   Migrating data: obbmjobmixiterations
+2026-03-19 18:30:25 [INFO    ]   Migrating data: obbricks
+2026-03-19 18:30:25 [INFO    ]   Migrating data: obbricksdetails
+2026-03-19 18:30:25 [INFO    ]   Migrating data: obbricksiterations
+2026-03-19 18:30:26 [INFO    ]   Migrating data: obcementtest
+2026-03-19 18:30:26 [INFO    ]   Migrating data: obcementtestcompstrenght
+2026-03-19 18:30:31 [INFO    ]   Migrating data: obcementtestconsistancy
+2026-03-19 18:30:32 [INFO    ]   Migrating data: obcementtestdetails
+2026-03-19 18:30:32 [INFO    ]   Migrating data: obcementtestfitness
+2026-03-19 18:30:34 [INFO    ]   Migrating data: obcementtestsettingtime
+2026-03-19 18:30:34 [INFO    ]   Migrating data: obcementtestsoundness
+2026-03-19 18:30:35 [INFO    ]   Migrating data: obcementtestspecgravity
+2026-03-19 18:30:35 [INFO    ]   Migrating data: obcomprstone
+2026-03-19 18:30:35 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:35 [INFO    ]   Migrating data: obcomprstonedetails
+2026-03-19 18:30:35 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:35 [INFO    ]   Migrating data: obcomprstoneiterations
+2026-03-19 18:30:35 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:35 [INFO    ]   Migrating data: obconcretecore
+2026-03-19 18:30:35 [INFO    ]   Migrating data: obconcretecoredetails
+2026-03-19 18:30:35 [INFO    ]   Migrating data: obconcretecoreiterations
+2026-03-19 18:30:35 [INFO    ]   Migrating data: obconcretecubedetails
+2026-03-19 18:30:37 [INFO    ]   Migrating data: obconcretecubeiterationdetails
+2026-03-19 18:30:42 [INFO    ]   Migrating data: obconcretecubetest
+2026-03-19 18:30:43 [INFO    ]   Migrating data: obdryingtime
+2026-03-19 18:30:43 [INFO    ]   Migrating data: obdryingtimedetails
+2026-03-19 18:30:43 [INFO    ]   Migrating data: obdryingtimeiterations
+2026-03-19 18:30:43 [INFO    ]   Migrating data: obfineaggregate
+2026-03-19 18:30:43 [INFO    ]   Migrating data: obfineaggregatedetails
+2026-03-19 18:30:44 [INFO    ]   Migrating data: obfineaggsieveiterations
+2026-03-19 18:30:47 [INFO    ]   Migrating data: obfineaggslititerations
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obflooringstone
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obflooringstonedetails
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obflooringstoneiterations
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obflybricks
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obflybricksdetails
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obflybricksiterations
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obglassbeads
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obglassbeadsdetails
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obglassbeadsiterations
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obgsbsieve
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obgsbsievedetails
+2026-03-19 18:30:48 [INFO    ]   Migrating data: obgsbsieveiterations
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obhollow
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obhollowdetails
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obhollowiterations
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmangloretiledetails
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmangloretileiterations
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmangloretiles
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmarshallstabilitydetails
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmarshallstabilityiterationdetails
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmarshallstabilitytest
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmixbituminuosconcrete
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmixbituminuosconcretedetails
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmixbituminuosconcreteiterations
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmixclosegradedpremix
+2026-03-19 18:30:50 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmixclosegradedpremixdetails
+2026-03-19 18:30:50 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmixclosegradedpremixiterations
+2026-03-19 18:30:50 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmixconcretemixaccldesign
+2026-03-19 18:30:50 [INFO    ]   Migrating data: obmixconcretemixaccldesigndetails
+2026-03-19 18:30:51 [INFO    ]   Migrating data: obmixconcretemixaccldesigniterations
+2026-03-19 18:30:51 [INFO    ]   Migrating data: obmixconcretemixdesign
+2026-03-19 18:30:51 [INFO    ]   Migrating data: obmixconcretemixdesigndetails
+2026-03-19 18:30:51 [INFO    ]   Migrating data: obmixconcretemixdesigniterations
+2026-03-19 18:30:51 [INFO    ]   Migrating data: obmixdesigndbm
+2026-03-19 18:30:51 [INFO    ]   Migrating data: obmixdesigndbmdetails
+2026-03-19 18:30:51 [INFO    ]   Migrating data: obmixdesigndbmiterations
+2026-03-19 18:30:51 [INFO    ]   Migrating data: obmixdesigngsb
+2026-03-19 18:30:51 [INFO    ]   Migrating data: obmixdesigngsbdetails
+2026-03-19 18:30:51 [INFO    ]   Migrating data: obmixdesigngsbiterations
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixdesignsbdc
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixdesignsbdcdetails
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixdesignsbdciterations
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixdesignwetmix
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixdesignwetmixdetails
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixdesignwetmixiterations
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixdlc
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixdlcdetails
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixdlciterations
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixpqc
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixpqcdetails
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmixpqciterations
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmorterdetails
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmorteriterationdetails
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmortertest
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmurrumcompct
+2026-03-19 18:30:52 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:52 [INFO    ]   Migrating data: obmurrumcompctcbr
+2026-03-19 18:30:53 [INFO    ]   Migrating data: obmurumcompactcbrdetails
+2026-03-19 18:30:53 [INFO    ]   Migrating data: obmurumcompactdetails
+2026-03-19 18:30:53 [INFO    ]     (no rows, skipping)
+2026-03-19 18:30:53 [INFO    ]   Migrating data: obmurumcompactiterations
+2026-03-19 18:30:53 [INFO    ]   Migrating data: obmurumliquid
+2026-03-19 18:30:54 [INFO    ]   Migrating data: obmurumliquiddetails
+2026-03-19 18:30:54 [INFO    ]   Migrating data: obmurumliquididiterations
+2026-03-19 18:30:56 [INFO    ]   Migrating data: obmurumsieve
+2026-03-19 18:30:56 [INFO    ]   Migrating data: obmurumsievedetails
+2026-03-19 18:30:57 [INFO    ]   Migrating data: obmurumsieveiterations
+2026-03-19 18:30:59 [INFO    ]   Migrating data: obmurumswell
+2026-03-19 18:30:59 [INFO    ]   Migrating data: obmurumswelldetails
+2026-03-19 18:30:59 [INFO    ]   Migrating data: obmurumswelliterations
+2026-03-19 18:30:59 [INFO    ]   Migrating data: obparticalboard
+2026-03-19 18:30:59 [INFO    ]   Migrating data: obparticaldetails
+2026-03-19 18:30:59 [INFO    ]   Migrating data: obparticaliterations
+2026-03-19 18:30:59 [INFO    ]   Migrating data: obpavingblock
+2026-03-19 18:30:59 [INFO    ]   Migrating data: obpavingdetails
+2026-03-19 18:30:59 [INFO    ]   Migrating data: obpavingiterationdetails
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obpipe
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obpipedetails
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obpipeiterations
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obplywood
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obplywooddetails
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obplywooditerations
+2026-03-19 18:31:00 [INFO    ]   Migrating data: observationcombo
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obsoftening
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obsofteningdetails
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obsofteningiterations
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obsteel
+2026-03-19 18:31:00 [INFO    ]   Migrating data: obsteeldetails
+2026-03-19 18:31:01 [INFO    ]   Migrating data: obsteeliterations
+2026-03-19 18:31:01 [INFO    ]   Migrating data: obstone
+2026-03-19 18:31:01 [INFO    ]   Migrating data: obstonedetails
+2026-03-19 18:31:01 [INFO    ]   Migrating data: obstoneiterations
+2026-03-19 18:31:01 [INFO    ]   Migrating data: obtiledetails
+2026-03-19 18:31:01 [INFO    ]   Migrating data: obtileiterations
+2026-03-19 18:31:02 [INFO    ]   Migrating data: obtiles
+2026-03-19 18:31:02 [INFO    ]   Migrating data: outwardno
+2026-03-19 18:31:02 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:02 [INFO    ]   Migrating data: paymentdetails
+2026-03-19 18:31:02 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:02 [INFO    ]   Migrating data: periodmaster
+2026-03-19 18:31:02 [INFO    ]   Migrating data: pwdenggmaster
+2026-03-19 18:31:02 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:02 [INFO    ]   Migrating data: pwdregionmaster
+2026-03-19 18:31:02 [INFO    ]   Migrating data: pwdregionmasterold
+2026-03-19 18:31:02 [INFO    ]   Migrating data: raggliquid
+2026-03-19 18:31:02 [INFO    ]   Migrating data: raggregat
+2026-03-19 18:31:05 [INFO    ]   Migrating data: raluminium
+2026-03-19 18:31:05 [INFO    ]   Migrating data: rbitudensity
+2026-03-19 18:31:05 [INFO    ]   Migrating data: rbituemix
+2026-03-19 18:31:05 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:05 [INFO    ]   Migrating data: rbituext
+2026-03-19 18:31:05 [INFO    ]   Migrating data: rbitumarshalldensity
+2026-03-19 18:31:05 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:05 [INFO    ]   Migrating data: rbitumen
+2026-03-19 18:31:06 [INFO    ]   Migrating data: rbitumix
+2026-03-19 18:31:06 [INFO    ]   Migrating data: rbricks
+2026-03-19 18:31:07 [INFO    ]   Migrating data: rcementtest
+2026-03-19 18:31:07 [INFO    ]   Migrating data: rclosegradedpremix
+2026-03-19 18:31:07 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:07 [INFO    ]   Migrating data: rcomprstone
+2026-03-19 18:31:07 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:07 [INFO    ]   Migrating data: rconcretecore
+2026-03-19 18:31:07 [INFO    ]   Migrating data: rconcretecube
+2026-03-19 18:31:11 [INFO    ]   Migrating data: receipemaster
+2026-03-19 18:31:11 [INFO    ]   Migrating data: receipemasterold
+2026-03-19 18:31:11 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:11 [INFO    ]   Migrating data: reportmpr
+2026-03-19 18:31:11 [INFO    ]   Migrating data: rfineaggregat
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rflooringstone
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rflyashbricks
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rgipvcpipe
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rhollowblock
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rmangloretiles
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rmarshallstability
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rmixbituminousconcrete
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rmixconcretemixdesign
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rmixdbm
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rmixdlc
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rmixgsb
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rmixpqc
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rmixsdbc
+2026-03-19 18:31:12 [INFO    ]   Migrating data: rmorter
+2026-03-19 18:31:13 [INFO    ]   Migrating data: rmurrum
+2026-03-19 18:31:14 [INFO    ]   Migrating data: rpavingblock
+2026-03-19 18:31:14 [INFO    ]   Migrating data: rplywood
+2026-03-19 18:31:14 [INFO    ]   Migrating data: rprticalboard
+2026-03-19 18:31:14 [INFO    ]   Migrating data: rsteel
+2026-03-19 18:31:14 [INFO    ]   Migrating data: rstone
+2026-03-19 18:31:14 [INFO    ]   Migrating data: rthermoplastic
+2026-03-19 18:31:14 [INFO    ]   Migrating data: rtiles
+2026-03-19 18:31:14 [INFO    ]   Migrating data: rwmm
+2026-03-19 18:31:14 [INFO    ]   Migrating data: rwood
+2026-03-19 18:31:14 [INFO    ]   Migrating data: sms_template
+2026-03-19 18:31:14 [INFO    ]   Migrating data: specifications
+2026-03-19 18:31:14 [INFO    ]   Migrating data: specificationsold
+2026-03-19 18:31:14 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:14 [INFO    ]   Migrating data: subtestmaster
+2026-03-19 18:31:14 [INFO    ]   Migrating data: subtestmasterhistory
+2026-03-19 18:31:14 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:14 [INFO    ]   Migrating data: testmaster
+2026-03-19 18:31:14 [INFO    ]   Migrating data: testmasterlocal
+2026-03-19 18:31:14 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:14 [INFO    ]   Migrating data: testmaterial
+2026-03-19 18:31:14 [INFO    ]   Migrating data: testreco
+2026-03-19 18:31:14 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:14 [INFO    ]   Migrating data: testscheduler
+2026-03-19 18:31:15 [INFO    ]   Migrating data: usermaster
+2026-03-19 18:31:15 [INFO    ]   Migrating data: userrightsdetails
+2026-03-19 18:31:15 [INFO    ]   Migrating data: vw_paid_invoices
+2026-03-19 18:31:17 [INFO    ]   Migrating data: vw_unpaid_invoices
+2026-03-19 18:31:17 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:17 [INFO    ]   Migrating data: work_id_sequence
+2026-03-19 18:31:17 [INFO    ]   Migrating data: work_id_tracker
+2026-03-19 18:31:17 [INFO    ]   Migrating data: workmaster
+2026-03-19 18:31:19 [INFO    ]   Migrating data: workmaster_pwd
+2026-03-19 18:31:19 [INFO    ]     (no rows, skipping)
+2026-03-19 18:31:19 [INFO    ] Data migration complete.
+
+2026-03-19 18:31:19 [INFO    ] === Resetting PG Sequences ===
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.casting_details.castid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.consumptiondetails.tcid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.consumptioninwordmaster.n_consumption_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.consumptionmaster.n_consumable_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.contractormaster.n_cid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.deletetestlog.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.formreportlink.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.formreportlinkold.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.generalledger.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.invoice.n_invoice_no
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.invoicedeletehistory.trans_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.invoicedetails.n_inv_det_no
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.issuereference.refid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.labempmaster.n_engg_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.locationwisetestmaster.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.login_history.trans_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.logmaster.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.logmobileuser.login_key
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.mailsmslog.n_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.materialmaster.n_mat_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.monthinfo.nid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.ob_cbrtest.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.ob_crbdetails.ncrb_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.ob_crbiterationdetails.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.ob_wood.n_obervartion_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.ob_wooddetails.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggflakiness.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggflakinessdetails.n_agg_flk_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggflankinessiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggliquid.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggliquiddetails.nob_agg_liquid_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggliquididiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggregate.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggregateabr.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggregateabrdetails.n_agg_abr_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggregateabriterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggregatedetails.n_agg_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggregateiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggregatestr.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggregatestrdetails.n_agg_str_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggregatestriterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggsieve.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggsievedetails.n_agg_sieve_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggsieveiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggsoundness.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggsoundnessdetails.n_agg_sound_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaggsoundnessiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaluminium.n_obervartion_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaluminiumdetails.naluminiumdetails_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obaluminiumiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitudensity.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitudensitydetails.nbitu_density_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitudensityiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbituext1.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbituext1details.nbituext_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbituext1iterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumarshalldensity.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumarshalldensitydetails.nbitu_density_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumarshalldensityiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumen.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumendetails.nbitumen_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumenductility.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumenductilitydetails.nbitumen_ductility_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumenductilityiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumeniterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumenviscosity.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumenviscositydetails.nbitumen_viscosity_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumenviscosityiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumix.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumixdetails.nbitumix_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumixext2iterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitumixsieveiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbitusieveiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbmjobmix.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbmjobmixdetails.n_bm_job_mix_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbmjobmixiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbricks.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbricksdetails.nbricks_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obbricksiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcementtest.n_observation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcementtestcompstrenght.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcementtestconsistancy.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcementtestdetails.ncementdetails_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcementtestfitness.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcementtestsettingtime.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcementtestsoundness.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcementtestspecgravity.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcomprstone.n_obervartion_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcomprstonedetails.n_stonedetails_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obcomprstoneiterations.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obconcretecore.n_observation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obconcretecoredetails.nconcretecoredetails_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obconcretecoreiterations.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obconcretecubedetails.nconcretedetails_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obconcretecubeiterationdetails.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obconcretecubetest.n_observation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obdryingtime.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obdryingtimedetails.obdrying_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obdryingtimeiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obfineaggregate.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obfineaggregatedetails.n_fine_agg_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obfineaggsieveiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obfineaggslititerations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obflooringstone.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obflooringstonedetails.n_agg_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obflooringstoneiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obflybricks.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obflybricksdetails.nflyashbricks_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obflybricksiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obglassbeads.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obglassbeadsdetails.obglassbeads_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obglassbeadsiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obgsbsieve.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obgsbsievedetails.n_agg_sieve_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obgsbsieveiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obhollow.n_obervartion_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obhollowdetails.n_hollowdetails_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obhollowiterations.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmangloretiledetails.ntile_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmangloretileiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmangloretiles.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmarshallstabilitydetails.n_marshal_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmarshallstabilityiterationdetails.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmarshallstabilitytest.n_observation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixbituminuosconcrete.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixbituminuosconcretedetails.n_mix_bituminuous_concrete_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixbituminuosconcreteiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixclosegradedpremix.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixclosegradedpremixdetails.n_close_graded_premix_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixclosegradedpremixiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixconcretemixaccldesign.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixconcretemixaccldesigndetails.n_mixconcretemixdesigh_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixconcretemixaccldesigniterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixconcretemixdesign.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixconcretemixdesigndetails.n_mixconcretemixdesigh_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixconcretemixdesigniterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesigndbm.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesigndbmdetails.n_mix_dbm_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesigndbmiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesigngsb.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesigngsbdetails.n_mix_gsb_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesigngsbiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesignsbdc.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesignsbdcdetails.n_mix_sbdc_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesignsbdciterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesignwetmix.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesignwetmixdetails.n_mix_wet_mix_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdesignwetmixiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdlc.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdlcdetails.n_mixdlc_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixdlciterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixpqc.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixpqcdetails.n_mixpqc_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmixpqciterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmorterdetails.nmorterdetails_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmorteriterationdetails.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmortertest.n_observation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurrumcompct.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurrumcompctcbr.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumcompactcbrdetails.n_murum_compactcbr_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumcompactdetails.n_murum_compact_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumcompactiterations.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumliquid.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumliquiddetails.nob_murum_liquid_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumliquididiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumsieve.n_obervartion_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumsievedetails.n_murum_sieve_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumsieveiterations.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumswell.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumswelldetails.nob_murum_swell_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obmurumswelliterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obparticalboard.n_observation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obparticaldetails.n_particle_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obparticaliterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obpavingblock.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obpavingdetails.npaving_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obpavingiterationdetails.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obpipe.n_observation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obpipedetails.n_pipe_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obpipeiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obplywood.n_observation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obplywooddetails.n_plywood_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obplywooditerations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.observationcombo.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obsoftening.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obsofteningdetails.obsoftening_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obsofteningiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obsteel.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obsteeldetails.n_steel_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obsteeliterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obstone.n_obervartion_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obstonedetails.n_stonedetails_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obstoneiterations.nel_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obtiledetails.n_tile_details_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obtileiterations.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.obtiles.n_obervation_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.paymentdetails.p_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.periodmaster.n_period_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.pwdenggmaster.n_engg_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.pwdregionmaster.n_pwd_master
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.pwdregionmasterold.n_pwd_master
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.raggliquid.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.raggregat.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.raluminium.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rbitudensity.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rbituemix.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rbituext.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rbitumarshalldensity.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rbitumen.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rbitumix.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rcementtest.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rclosegradedpremix.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rcomprstone.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rconcretecore.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rconcretecube.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.receipemaster.nid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.receipemasterold.nid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.reportmpr.n_id
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rfineaggregat.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rflooringstone.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rgipvcpipe.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rhollowblock.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmangloretiles.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmarshallstability.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmixbituminousconcrete.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmixconcretemixdesign.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmixdbm.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmixdlc.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmixgsb.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmixpqc.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmixsdbc.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmorter.nelid
+2026-03-19 18:31:19 [INFO    ]   Sequence reset: elab.rmurrum.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.rpavingblock.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.rplywood.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.rprticalboard.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.rsteel.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.rstone.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.rthermoplastic.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.rtiles.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.rwmm.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.rwood.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.sms_template.trans_id
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.specifications.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.specificationsold.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.subtestmaster.n_sub_test_id
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.subtestmasterhistory.n_sub_test_hist_id
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.testmaster.n_test_id
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.testmasterlocal.lid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.testmaterial.n_el_id
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.testreco.n_test_reco_id
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.testscheduler.nelid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.usermaster.n_umid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.userrightsdetails.n_urdid
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.work_id_tracker.id
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.workmaster.n_work_id
+2026-03-19 18:31:20 [INFO    ]   Sequence reset: elab.workmaster_pwd.n_work_id
+2026-03-19 18:31:20 [INFO    ] Sequence reset complete.
+
+2026-03-19 18:31:20 [INFO    ] === Migrating Foreign Keys ===
+2026-03-19 18:31:20 [INFO    ]   FK added: consumptiondetails.n_invoice_no → invoice.n_invoice_no
+2026-03-19 18:31:20 [WARNING ]   FK skipped (invoicedetails.n_invoice_no): insert or update on table "invoicedetails" violates foreign key constraint "fk_invoicedetails"
+DETAIL:  Key (n_invoice_no)=(125262) is not present in table "invoice".
+
+2026-03-19 18:31:20 [INFO    ]   FK added: ob_crbdetails.n_observation_id → ob_cbrtest.n_obervation_id
+2026-03-19 18:31:20 [WARNING ]   FK skipped (ob_crbiterationdetails.ncrb_details_id): insert or update on table "ob_crbiterationdetails" violates foreign key constraint "fk_ob_crbiterationdetails"
+DETAIL:  Key (ncrb_details_id)=(14440) is not present in table "obmurumcompactcbrdetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (ob_wooddetails.n_observation_id): insert or update on table "ob_wooddetails" violates foreign key constraint "fk_ob_wooddetails"
+DETAIL:  Key (n_observation_id)=(816) is not present in table "ob_wood".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggflakinessdetails.n_obervation_id): insert or update on table "obaggflakinessdetails" violates foreign key constraint "fk_obaggflakinessdetails"
+DETAIL:  Key (n_obervation_id)=(47823) is not present in table "obaggflakiness".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggflankinessiterations.n_agg_flk_details_id): insert or update on table "obaggflankinessiterations" violates foreign key constraint "fk_obaggflankinessiterations"
+DETAIL:  Key (n_agg_flk_details_id)=(57019) is not present in table "obaggflakinessdetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggliquiddetails.n_obervation_id): insert or update on table "obaggliquiddetails" violates foreign key constraint "fk_obaggliquiddetails"
+DETAIL:  Key (n_obervation_id)=(82) is not present in table "obaggliquid".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggliquididiterations.nob_agg_liquid_details_id): insert or update on table "obaggliquididiterations" violates foreign key constraint "fk_obaggliquididiterations"
+DETAIL:  Key (nob_agg_liquid_details_id)=(231) is not present in table "obaggliquiddetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggregateabrdetails.n_obervation_id): insert or update on table "obaggregateabrdetails" violates foreign key constraint "fk_obaggregateabrdetails"
+DETAIL:  Key (n_obervation_id)=(2446) is not present in table "obaggregateabr".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggregateabriterations.n_agg_abr_details_id): insert or update on table "obaggregateabriterations" violates foreign key constraint "fk_obaggregateabriterations"
+DETAIL:  Key (n_agg_abr_details_id)=(3692) is not present in table "obaggregateabrdetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggregatedetails.n_obervation_id): insert or update on table "obaggregatedetails" violates foreign key constraint "fk_obaggregatedetails"
+DETAIL:  Key (n_obervation_id)=(70997) is not present in table "obaggregate".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggregateiterations.n_agg_details_id): insert or update on table "obaggregateiterations" violates foreign key constraint "fk_obaggregateiterations"
+DETAIL:  Key (n_agg_details_id)=(78108) is not present in table "obaggregatedetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggregatestrdetails.n_obervation_id): insert or update on table "obaggregatestrdetails" violates foreign key constraint "fk_obaggregatestrdetails"
+DETAIL:  Key (n_obervation_id)=(1014) is not present in table "obaggregatestr".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggregatestriterations.n_agg_str_details_id): insert or update on table "obaggregatestriterations" violates foreign key constraint "fk_obaggregatestriterations"
+DETAIL:  Key (n_agg_str_details_id)=(2129) is not present in table "obaggregatestrdetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggsievedetails.n_obervation_id): insert or update on table "obaggsievedetails" violates foreign key constraint "fk_obaggsievedetails"
+DETAIL:  Key (n_obervation_id)=(110725) is not present in table "obaggsieve".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggsieveiterations.n_agg_sieve_details_id): insert or update on table "obaggsieveiterations" violates foreign key constraint "fk_obaggsieveiterations"
+DETAIL:  Key (n_agg_sieve_details_id)=(162353) is not present in table "obaggsievedetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggsoundnessdetails.n_obervation_id): insert or update on table "obaggsoundnessdetails" violates foreign key constraint "fk_obaggsoundnessdetails"
+DETAIL:  Key (n_obervation_id)=(12) is not present in table "obaggsoundness".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaggsoundnessiterations.n_agg_sound_details_id): insert or update on table "obaggsoundnessiterations" violates foreign key constraint "fk_obaggsoundnessiterations"
+DETAIL:  Key (n_agg_sound_details_id)=(15) is not present in table "obaggsoundnessdetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaluminiumdetails.n_obervartion_id): insert or update on table "obaluminiumdetails" violates foreign key constraint "fk_obaluminiumdetails"
+DETAIL:  Key (n_obervartion_id)=(1482) is not present in table "obaluminium".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obaluminiumiterations.naluminiumdetails_id): insert or update on table "obaluminiumiterations" violates foreign key constraint "fk_obaluminiumiterations"
+DETAIL:  Key (naluminiumdetails_id)=(1565) is not present in table "obaluminiumdetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbitudensitydetails.n_obervation_id): insert or update on table "obbitudensitydetails" violates foreign key constraint "fk_obbitudensitydetails"
+DETAIL:  Key (n_obervation_id)=(375) is not present in table "obbitudensity".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbitudensityiterations.nbitu_density_details_id): insert or update on table "obbitudensityiterations" violates foreign key constraint "fk_obbitudensityiterations"
+DETAIL:  Key (nbitu_density_details_id)=(2122) is not present in table "obbitudensitydetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbituext1details.n_obervation_id): insert or update on table "obbituext1details" violates foreign key constraint "fk_obbituext1details"
+DETAIL:  Key (n_obervation_id)=(14427) is not present in table "obbituext1".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbituext1iterations.nbituext_details_id): insert or update on table "obbituext1iterations" violates foreign key constraint "fk_obbituext1iterations"
+DETAIL:  Key (nbituext_details_id)=(32056) is not present in table "obbituext1details".
+
+2026-03-19 18:31:20 [INFO    ]   FK added: obbitumarshalldensitydetails.n_obervation_id → obbitumarshalldensity.n_obervation_id
+2026-03-19 18:31:20 [INFO    ]   FK added: obbitumarshalldensityiterations.nbitu_density_details_id → obbitumarshalldensitydetails.nbitu_density_details_id
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbitumenductilitydetails.n_obervation_id): insert or update on table "obbitumenductilitydetails" violates foreign key constraint "fk_obbitumenductilitydetails"
+DETAIL:  Key (n_obervation_id)=(1650) is not present in table "obbitumenductility".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbitumenductilityiterations.nbitumen_ductility_details_id): insert or update on table "obbitumenductilityiterations" violates foreign key constraint "fk_obbitumenductilityiterations"
+DETAIL:  Key (nbitumen_ductility_details_id)=(2368) is not present in table "obbitumenductilitydetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbitumeniterations.nbitumen_details_id): insert or update on table "obbitumeniterations" violates foreign key constraint "fk_obbitumendetails"
+DETAIL:  Key (nbitumen_details_id)=(28042) is not present in table "obbitumendetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbitumenviscositydetails.n_obervation_id): insert or update on table "obbitumenviscositydetails" violates foreign key constraint "fk_obbitumenviscositydetails"
+DETAIL:  Key (n_obervation_id)=(3995) is not present in table "obbitumenviscosity".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbitumenviscosityiterations.nbitumen_viscosity_details_id): insert or update on table "obbitumenviscosityiterations" violates foreign key constraint "fk_obbitumenviscosityiterations"
+DETAIL:  Key (nbitumen_viscosity_details_id)=(5360) is not present in table "obbitumenviscositydetails".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbitumixdetails.n_obervation_id): insert or update on table "obbitumixdetails" violates foreign key constraint "fk_obbitumixdetails"
+DETAIL:  Key (n_obervation_id)=(1702) is not present in table "obbitumix".
+
+2026-03-19 18:31:20 [WARNING ]   FK skipped (obbitumixext2iterations.nbitumix_details_id): insert or update on table "obbitumixext2iterations" violates foreign key constraint "fk_obbituext2iterations"
+DETAIL:  Key (nbitumix_details_id)=(4012) is not present in table "obbitumixdetails".
+
+2026-03-19 18:31:21 [WARNING ]   FK skipped (obbitumixsieveiterations.nbitumix_details_id): insert or update on table "obbitumixsieveiterations" violates foreign key constraint "fk_obbitumixsieveiterations"
+DETAIL:  Key (nbitumix_details_id)=(4009) is not present in table "obbitumixdetails".
+
+2026-03-19 18:31:21 [WARNING ]   FK skipped (obbmjobmixdetails.n_obervation_id): insert or update on table "obbmjobmixdetails" violates foreign key constraint "fk_obbmjobmixdetails"
+DETAIL:  Key (n_obervation_id)=(1901) is not present in table "obbmjobmix".
+
+2026-03-19 18:31:21 [WARNING ]   FK skipped (obbmjobmixiterations.n_bm_job_mix_details_id): insert or update on table "obbmjobmixiterations" violates foreign key constraint "fk_obbmjobmixiterations"
+DETAIL:  Key (n_bm_job_mix_details_id)=(2043) is not present in table "obbmjobmixdetails".
+
+2026-03-19 18:31:21 [WARNING ]   FK skipped (obbricksdetails.n_obervation_id): insert or update on table "obbricksdetails" violates foreign key constraint "fk_obbricksdetails"
+DETAIL:  Key (n_obervation_id)=(9444) is not present in table "obbricks".
+
+2026-03-19 18:31:21 [WARNING ]   FK skipped (obbricksiterations.nbricks_details_id): insert or update on table "obbricksiterations" violates foreign key constraint "fk_obbricksiteration"
+DETAIL:  Key (nbricks_details_id)=(10140) is not present in table "obbricksdetails".
+
+2026-03-19 18:31:22 [WARNING ]   FK skipped (obcementtestcompstrenght.ncementdetails_id): insert or update on table "obcementtestcompstrenght" violates foreign key constraint "fk_obcementtestcompstrenght"
+DETAIL:  Key (ncementdetails_id)=(33887) is not present in table "obcementtestdetails".
+
+2026-03-19 18:31:23 [WARNING ]   FK skipped (obcementtestconsistancy.ncementdetails_id): insert or update on table "obcementtestconsistancy" violates foreign key constraint "fk_obcementtestconsistancy"
+DETAIL:  Key (ncementdetails_id)=(34510) is not present in table "obcementtestdetails".
+
+2026-03-19 18:31:23 [WARNING ]   FK skipped (obcementtestdetails.n_obervation_id): insert or update on table "obcementtestdetails" violates foreign key constraint "fk_obcementtestdetails"
+DETAIL:  Key (n_obervation_id)=(25793) is not present in table "obcementtest".
+
+2026-03-19 18:31:23 [WARNING ]   FK skipped (obcementtestfitness.ncementdetails_id): insert or update on table "obcementtestfitness" violates foreign key constraint "fk_obcementtestfitness"
+DETAIL:  Key (ncementdetails_id)=(34137) is not present in table "obcementtestdetails".
+
+2026-03-19 18:31:24 [WARNING ]   FK skipped (obcementtestsettingtime.ncementdetails_id): insert or update on table "obcementtestsettingtime" violates foreign key constraint "fk_obcementtestsettingtime"
+DETAIL:  Key (ncementdetails_id)=(34513) is not present in table "obcementtestdetails".
+
+2026-03-19 18:31:24 [WARNING ]   FK skipped (obcementtestsoundness.ncementdetails_id): insert or update on table "obcementtestsoundness" violates foreign key constraint "fk_obcementtestsoundness"
+DETAIL:  Key (ncementdetails_id)=(33694) is not present in table "obcementtestdetails".
+
+2026-03-19 18:31:24 [WARNING ]   FK skipped (obcementtestspecgravity.ncementdetails_id): insert or update on table "obcementtestspecgravity" violates foreign key constraint "fk_obcementtestspecgravity"
+DETAIL:  Key (ncementdetails_id)=(33694) is not present in table "obcementtestdetails".
+
+2026-03-19 18:31:24 [INFO    ]   FK added: obcomprstonedetails.n_obervartion_id → obcomprstone.n_obervartion_id
+2026-03-19 18:31:24 [INFO    ]   FK added: obcomprstoneiterations.n_stonedetails_id → obcomprstonedetails.n_stonedetails_id
+2026-03-19 18:31:24 [WARNING ]   FK skipped (obconcretecoredetails.n_obervation_id): insert or update on table "obconcretecoredetails" violates foreign key constraint "fk_obconcretecoredetails"
+DETAIL:  Key (n_obervation_id)=(27) is not present in table "obconcretecore".
+
+2026-03-19 18:31:24 [WARNING ]   FK skipped (obconcretecoreiterations.nconcretecoredetails_id): insert or update on table "obconcretecoreiterations" violates foreign key constraint "fk_obconcretecoreiterations"
+DETAIL:  Key (nconcretecoredetails_id)=(55) is not present in table "obconcretecoredetails".
+
+2026-03-19 18:31:25 [WARNING ]   FK skipped (obconcretecubedetails.n_obervation_id): insert or update on table "obconcretecubedetails" violates foreign key constraint "fk_obconcretecubedetails"
+DETAIL:  Key (n_obervation_id)=(64890) is not present in table "obconcretecubetest".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obconcretecubeiterationdetails.nconcretedetails_id): insert or update on table "obconcretecubeiterationdetails" violates foreign key constraint "fk_obconcretecubeiterationdetails"
+DETAIL:  Key (nconcretedetails_id)=(191440) is not present in table "obconcretecubedetails".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obdryingtimedetails.n_obervation_id): insert or update on table "obdryingtimedetails" violates foreign key constraint "fk_obdryingtimedetails"
+DETAIL:  Key (n_obervation_id)=(22) is not present in table "obdryingtime".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obdryingtimeiterations.obdrying_details_id): insert or update on table "obdryingtimeiterations" violates foreign key constraint "fk_obdryingtimeiterations"
+DETAIL:  Key (obdrying_details_id)=(25) is not present in table "obdryingtimedetails".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obfineaggregatedetails.n_obervation_id): insert or update on table "obfineaggregatedetails" violates foreign key constraint "fk_obfineaggregatedetails"
+DETAIL:  Key (n_obervation_id)=(26915) is not present in table "obfineaggregate".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obfineaggsieveiterations.nfine_agg_details_id): insert or update on table "obfineaggsieveiterations" violates foreign key constraint "fk_obfineaggsieveiterations"
+DETAIL:  Key (nfine_agg_details_id)=(31537) is not present in table "obfineaggregatedetails".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obfineaggslititerations.nfine_agg_details_id): insert or update on table "obfineaggslititerations" violates foreign key constraint "fk_obfineaggslititerations"
+DETAIL:  Key (nfine_agg_details_id)=(31481) is not present in table "obfineaggregatedetails".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obflooringstonedetails.n_obervation_id): insert or update on table "obflooringstonedetails" violates foreign key constraint "fk_obflooringstonedetails"
+DETAIL:  Key (n_obervation_id)=(327) is not present in table "obflooringstone".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obflooringstoneiterations.n_agg_details_id): insert or update on table "obflooringstoneiterations" violates foreign key constraint "fk_obflooringstoneiterations"
+DETAIL:  Key (n_agg_details_id)=(485) is not present in table "obflooringstonedetails".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obflybricksdetails.n_obervation_id): insert or update on table "obflybricksdetails" violates foreign key constraint "fk_obflybricksdetails"
+DETAIL:  Key (n_obervation_id)=(1356) is not present in table "obflybricks".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obflybricksiterations.nflyashbricks_details_id): insert or update on table "obflybricksiterations" violates foreign key constraint "fk_obflybricksiterations"
+DETAIL:  Key (nflyashbricks_details_id)=(1899) is not present in table "obflybricksdetails".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obglassbeadsdetails.n_obervation_id): insert or update on table "obglassbeadsdetails" violates foreign key constraint "fk_obglassbeadsdetails"
+DETAIL:  Key (n_obervation_id)=(26) is not present in table "obglassbeads".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obglassbeadsiterations.obglassbeads_details_id): insert or update on table "obglassbeadsiterations" violates foreign key constraint "fk_obglassbeadsiterations"
+DETAIL:  Key (obglassbeads_details_id)=(33) is not present in table "obglassbeadsdetails".
+
+2026-03-19 18:31:27 [WARNING ]   FK skipped (obgsbsievedetails.n_obervation_id): insert or update on table "obgsbsievedetails" violates foreign key constraint "fk_obgsbsievedetails"
+DETAIL:  Key (n_obervation_id)=(3849) is not present in table "obgsbsieve".
+
+2026-03-19 18:31:28 [WARNING ]   FK skipped (obgsbsieveiterations.n_agg_sieve_details_id): insert or update on table "obgsbsieveiterations" violates foreign key constraint "fk_obgsbsieveiterations"
+DETAIL:  Key (n_agg_sieve_details_id)=(11652) is not present in table "obgsbsievedetails".
+
+2026-03-19 18:31:28 [WARNING ]   FK skipped (obhollowdetails.n_obervartion_id): insert or update on table "obhollowdetails" violates foreign key constraint "fk_obhollowdetails"
+DETAIL:  Key (n_obervartion_id)=(527) is not present in table "obhollow".
+
+2026-03-19 18:31:28 [WARNING ]   FK skipped (obhollowiterations.n_hollowdetails_id): insert or update on table "obhollowiterations" violates foreign key constraint "fk_obhollowiterations"
+DETAIL:  Key (n_hollowdetails_id)=(955) is not present in table "obhollowdetails".
+
+2026-03-19 18:31:28 [WARNING ]   FK skipped (obmangloretiledetails.n_obervation_id): insert or update on table "obmangloretiledetails" violates foreign key constraint "fk_obmangloretiledetails"
+DETAIL:  Key (n_obervation_id)=(139) is not present in table "obmangloretiles".
+
+2026-03-19 18:31:28 [WARNING ]   FK skipped (obmangloretileiterations.ntile_details_id): insert or update on table "obmangloretileiterations" violates foreign key constraint "fk_obmangloretileiterations"
+DETAIL:  Key (ntile_details_id)=(142) is not present in table "obmangloretiledetails".
+
+2026-03-19 18:31:28 [WARNING ]   FK skipped (obmarshallstabilitydetails.n_observation_id): insert or update on table "obmarshallstabilitydetails" violates foreign key constraint "fk_obmarshallstabilitydetails"
+DETAIL:  Key (n_observation_id)=(30) is not present in table "obmarshallstabilitytest".
+
+2026-03-19 18:31:28 [WARNING ]   FK skipped (obmarshallstabilityiterationdetails.n_marshal_details_id): insert or update on table "obmarshallstabilityiterationdetails" violates foreign key constraint "fk_obmarshallstabilityiterationdetails"
+DETAIL:  Key (n_marshal_details_id)=(93) is not present in table "obmarshallstabilitydetails".
+
+2026-03-19 18:31:28 [WARNING ]   FK skipped (obmixbituminuosconcretedetails.n_obervation_id): insert or update on table "obmixbituminuosconcretedetails" violates foreign key constraint "fk_obmixbituminuosconcretedetails"
+DETAIL:  Key (n_obervation_id)=(832) is not present in table "obmixbituminuosconcrete".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixbituminuosconcreteiterations.n_mix_bituminuous_concrete_details_id): insert or update on table "obmixbituminuosconcreteiterations" violates foreign key constraint "fk_obmixbituminuosconcreteiterations"
+DETAIL:  Key (n_mix_bituminuous_concrete_details_id)=(859) is not present in table "obmixbituminuosconcretedetails".
+
+2026-03-19 18:31:29 [INFO    ]   FK added: obmixclosegradedpremixdetails.n_obervation_id → obmixclosegradedpremix.n_obervation_id
+2026-03-19 18:31:29 [INFO    ]   FK added: obmixclosegradedpremixiterations.n_close_graded_premix_details_id → obmixclosegradedpremixdetails.n_close_graded_premix_details_id
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixconcretemixaccldesigndetails.n_obervation_id): insert or update on table "obmixconcretemixaccldesigndetails" violates foreign key constraint "fk_obmixconcretemixaccldesigndetails"
+DETAIL:  Key (n_obervation_id)=(8812) is not present in table "obmixconcretemixaccldesign".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixconcretemixaccldesigniterations.n_mixconcretemixdesigh_details_id): insert or update on table "obmixconcretemixaccldesigniterations" violates foreign key constraint "fk_obmixconcretemixaccldesigniterations"
+DETAIL:  Key (n_mixconcretemixdesigh_details_id)=(9209) is not present in table "obmixconcretemixaccldesigndetails".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixconcretemixdesigndetails.n_obervation_id): insert or update on table "obmixconcretemixdesigndetails" violates foreign key constraint "fk_obmixconcretemixdesigndetails"
+DETAIL:  Key (n_obervation_id)=(2338) is not present in table "obmixconcretemixdesign".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixconcretemixdesigniterations.n_mixconcretemixdesigh_details_id): insert or update on table "obmixconcretemixdesigniterations" violates foreign key constraint "fk_obmixconcretemixdesigniterations"
+DETAIL:  Key (n_mixconcretemixdesigh_details_id)=(2374) is not present in table "obmixconcretemixdesigndetails".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixdesigndbmdetails.n_obervation_id): insert or update on table "obmixdesigndbmdetails" violates foreign key constraint "fk_obmixdesigndbmdetails"
+DETAIL:  Key (n_obervation_id)=(400) is not present in table "obmixdesigndbm".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixdesigndbmiterations.n_mix_dbm_details_id): insert or update on table "obmixdesigndbmiterations" violates foreign key constraint "fk_obmixdesigndbmiterations"
+DETAIL:  Key (n_mix_dbm_details_id)=(432) is not present in table "obmixdesigndbmdetails".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixdesigngsbdetails.n_obervation_id): insert or update on table "obmixdesigngsbdetails" violates foreign key constraint "fk_obmixdesigngsbdetails"
+DETAIL:  Key (n_obervation_id)=(3214) is not present in table "obmixdesigngsb".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixdesigngsbiterations.n_mix_gsb_details_id): insert or update on table "obmixdesigngsbiterations" violates foreign key constraint "fk_obmixdesigngsbiterations"
+DETAIL:  Key (n_mix_gsb_details_id)=(3899) is not present in table "obmixdesigngsbdetails".
+
+2026-03-19 18:31:29 [INFO    ]   FK added: obmixdesignsbdcdetails.n_obervation_id → obmixdesignsbdc.n_obervation_id
+2026-03-19 18:31:29 [INFO    ]   FK added: obmixdesignsbdciterations.n_mix_sbdc_details_id → obmixdesignsbdcdetails.n_mix_sbdc_details_id
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixdesignwetmixdetails.n_obervation_id): insert or update on table "obmixdesignwetmixdetails" violates foreign key constraint "fk_obmixdesignwetdetails"
+DETAIL:  Key (n_obervation_id)=(305) is not present in table "obmixdesignwetmix".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixdesignwetmixiterations.n_mix_wet_mix_details_id): insert or update on table "obmixdesignwetmixiterations" violates foreign key constraint "fk_obmixdesignwetmixiterations"
+DETAIL:  Key (n_mix_wet_mix_details_id)=(332) is not present in table "obmixdesignwetmixdetails".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixdlcdetails.n_obervation_id): insert or update on table "obmixdlcdetails" violates foreign key constraint "fk_obmixdlcdetails"
+DETAIL:  Key (n_obervation_id)=(175) is not present in table "obmixdlc".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixdlciterations.n_mixdlc_details_id): insert or update on table "obmixdlciterations" violates foreign key constraint "fk_obmixdlciterations"
+DETAIL:  Key (n_mixdlc_details_id)=(165) is not present in table "obmixdlcdetails".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixpqcdetails.n_obervation_id): insert or update on table "obmixpqcdetails" violates foreign key constraint "fk_obmixpqcdetails"
+DETAIL:  Key (n_obervation_id)=(482) is not present in table "obmixpqc".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmixpqciterations.n_mixpqc_details_id): insert or update on table "obmixpqciterations" violates foreign key constraint "fk_obmixpqciterations"
+DETAIL:  Key (n_mixpqc_details_id)=(484) is not present in table "obmixpqcdetails".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmorterdetails.n_obervation_id): insert or update on table "obmorterdetails" violates foreign key constraint "fk_obmorterdetails"
+DETAIL:  Key (n_obervation_id)=(7271) is not present in table "obmortertest".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmorteriterationdetails.nmorterdetails_id): insert or update on table "obmorteriterationdetails" violates foreign key constraint "fk_obmorteriterationdetails"
+DETAIL:  Key (nmorterdetails_id)=(13079) is not present in table "obmorterdetails".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmurumcompactcbrdetails.n_obervartion_id): insert or update on table "obmurumcompactcbrdetails" violates foreign key constraint "fk_obmurumcompactcbrdetails"
+DETAIL:  Key (n_obervartion_id)=(8570) is not present in table "obmurrumcompctcbr".
+
+2026-03-19 18:31:29 [INFO    ]   FK added: obmurumcompactdetails.n_obervartion_id → obmurrumcompct.n_obervation_id
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmurumcompactiterations.n_murum_compact_details_id): insert or update on table "obmurumcompactiterations" violates foreign key constraint "fk_obmurumcompactiterations"
+DETAIL:  Key (n_murum_compact_details_id)=(14123) is not present in table "obmurumcompactcbrdetails".
+
+2026-03-19 18:31:29 [WARNING ]   FK skipped (obmurumliquiddetails.n_obervation_id): insert or update on table "obmurumliquiddetails" violates foreign key constraint "fk_obmurumliquiddetails"
+DETAIL:  Key (n_obervation_id)=(30942) is not present in table "obmurumliquid".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obmurumliquididiterations.nob_murum_liquid_details_id): insert or update on table "obmurumliquididiterations" violates foreign key constraint "fk_obmurumliquididiterations"
+DETAIL:  Key (nob_murum_liquid_details_id)=(56837) is not present in table "obmurumliquiddetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obmurumsievedetails.n_obervartion_id): insert or update on table "obmurumsievedetails" violates foreign key constraint "fk_obmurumsievedetails"
+DETAIL:  Key (n_obervartion_id)=(25295) is not present in table "obmurumsieve".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obmurumsieveiterations.n_murum_sieve_details_id): insert or update on table "obmurumsieveiterations" violates foreign key constraint "fk_obmurumsieveiterations"
+DETAIL:  Key (n_murum_sieve_details_id)=(52597) is not present in table "obmurumsievedetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obmurumswelldetails.n_obervation_id): insert or update on table "obmurumswelldetails" violates foreign key constraint "fk_obmurumswelldetails"
+DETAIL:  Key (n_obervation_id)=(9) is not present in table "obmurumswell".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obmurumswelliterations.nob_murum_swell_details_id): insert or update on table "obmurumswelliterations" violates foreign key constraint "fk_obmurumswelliterations"
+DETAIL:  Key (nob_murum_swell_details_id)=(20) is not present in table "obmurumswelldetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obparticaldetails.n_obervation_id): insert or update on table "obparticaldetails" violates foreign key constraint "fk_obparticledetails"
+DETAIL:  Key (n_obervation_id)=(10) is not present in table "obparticalboard".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obparticaliterations.n_particle_details_id): insert or update on table "obparticaliterations" violates foreign key constraint "fk_obparticleiterations"
+DETAIL:  Key (n_particle_details_id)=(11) is not present in table "obparticaldetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obpavingdetails.n_obervation_id): insert or update on table "obpavingdetails" violates foreign key constraint "fk_obpavingdetails"
+DETAIL:  Key (n_obervation_id)=(7773) is not present in table "obpavingblock".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obpavingiterationdetails.npaving_details_id): insert or update on table "obpavingiterationdetails" violates foreign key constraint "fk_obpavingiterationdetails"
+DETAIL:  Key (npaving_details_id)=(8593) is not present in table "obpavingdetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obpipedetails.n_obervation_id): insert or update on table "obpipedetails" violates foreign key constraint "fk_obpipedetails"
+DETAIL:  Key (n_obervation_id)=(157) is not present in table "obpipe".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obpipeiterations.n_pipe_details_id): insert or update on table "obpipeiterations" violates foreign key constraint "fk_obpipeiterations"
+DETAIL:  Key (n_pipe_details_id)=(456) is not present in table "obpipedetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obplywooddetails.n_obervation_id): insert or update on table "obplywooddetails" violates foreign key constraint "fk_obplywooddetails"
+DETAIL:  Key (n_obervation_id)=(347) is not present in table "obplywood".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obplywooditerations.nplywood_details_id): insert or update on table "obplywooditerations" violates foreign key constraint "fk_obplywooditerations"
+DETAIL:  Key (nplywood_details_id)=(373) is not present in table "obplywooddetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obsofteningdetails.n_obervation_id): insert or update on table "obsofteningdetails" violates foreign key constraint "fk_obsofteningdetails"
+DETAIL:  Key (n_obervation_id)=(26) is not present in table "obsoftening".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obsofteningiterations.obsoftening_details_id): insert or update on table "obsofteningiterations" violates foreign key constraint "fk_obsofteningiterations"
+DETAIL:  Key (obsoftening_details_id)=(31) is not present in table "obsofteningdetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obsteeldetails.n_obervation_id): insert or update on table "obsteeldetails" violates foreign key constraint "fk_obsteeldetails"
+DETAIL:  Key (n_obervation_id)=(5141) is not present in table "obsteel".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obsteeliterations.nsteel_details_id): insert or update on table "obsteeliterations" violates foreign key constraint "fk_obsteeliterations"
+DETAIL:  Key (nsteel_details_id)=(11082) is not present in table "obsteeldetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obstonedetails.n_obervartion_id): insert or update on table "obstonedetails" violates foreign key constraint "fk_obstonedetails"
+DETAIL:  Key (n_obervartion_id)=(7971) is not present in table "obstone".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obstoneiterations.n_stonedetails_id): insert or update on table "obstoneiterations" violates foreign key constraint "fk_obstoneiterations"
+DETAIL:  Key (n_stonedetails_id)=(8465) is not present in table "obstonedetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obtiledetails.n_obervation_id): insert or update on table "obtiledetails" violates foreign key constraint "fk_obtiledetails"
+DETAIL:  Key (n_obervation_id)=(4774) is not present in table "obtiles".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (obtileiterations.ntile_details_id): insert or update on table "obtileiterations" violates foreign key constraint "fk_obtileiterations"
+DETAIL:  Key (ntile_details_id)=(5550) is not present in table "obtiledetails".
+
+2026-03-19 18:31:30 [WARNING ]   FK skipped (pwdenggmaster.n_location_id): there is no unique constraint matching given keys for referenced table "locationmaster"
+
+2026-03-19 18:31:30 [INFO    ]   FK added: subtestmaster.n_test_id → testmaster.n_test_id
+2026-03-19 18:31:30 [WARNING ]   FK skipped (testmaterial.n_material_id): foreign key constraint "fk_testmaterial1" cannot be implemented
+DETAIL:  Key columns "n_material_id" and "n_mat_id" are of incompatible types: text and integer.
+
+2026-03-19 18:31:30 [INFO    ]   FK added: userrightsdetails.n_umid → usermaster.n_umid
+2026-03-19 18:31:30 [INFO    ] FK migration complete — added: 13, skipped: 109
+
+2026-03-19 18:31:30 [INFO    ] === Verifying Row Counts ===
+2026-03-19 18:31:30 [INFO    ]   ✅ casting_details: 9903
+2026-03-19 18:31:30 [INFO    ]   ✅ consumptiondetails: 99717
+2026-03-19 18:31:30 [INFO    ]   ✅ consumptioninwordmaster: 0
+2026-03-19 18:31:30 [INFO    ]   ✅ consumptionmaster: 10
+2026-03-19 18:31:30 [INFO    ]   ✅ contractormaster: 20436
+2026-03-19 18:31:30 [INFO    ]   ✅ deletetestlog: 20525
+2026-03-19 18:31:30 [INFO    ]   ✅ designationmaster: 6
+2026-03-19 18:31:30 [INFO    ]   ✅ formreportlink: 202
+2026-03-19 18:31:30 [INFO    ]   ✅ formreportlinkold: 0
+2026-03-19 18:31:30 [INFO    ]   ✅ generalledger: 584
+2026-03-19 18:31:30 [INFO    ]   ✅ invoice: 122888
+2026-03-19 18:31:30 [INFO    ]   ✅ invoicedeletehistory: 4
+2026-03-19 18:31:30 [INFO    ]   ✅ invoicedetails: 528466
+2026-03-19 18:31:30 [INFO    ]   ✅ issuereference: 211
+2026-03-19 18:31:30 [INFO    ]   ✅ labempmaster: 231
+2026-03-19 18:31:30 [INFO    ]   ✅ linechart: 0
+2026-03-19 18:31:30 [INFO    ]   ✅ locationmaster: 36
+2026-03-19 18:31:30 [INFO    ]   ✅ locationwisetestmaster: 3692
+2026-03-19 18:31:30 [INFO    ]   ✅ login_history: 55582
+2026-03-19 18:31:30 [INFO    ]   ✅ logmaster: 112379
+2026-03-19 18:31:30 [INFO    ]   ✅ logmobileuser: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ mailsmslog: 387281
+2026-03-19 18:31:31 [INFO    ]   ✅ main: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ materialmaster: 278
+2026-03-19 18:31:31 [INFO    ]   ✅ monthinfo: 180
+2026-03-19 18:31:31 [INFO    ]   ✅ mpr1old: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ mpr_jobreceivedold: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ mpr_outwardold: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ mpr_pendingold: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ ob_cbrtest: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ ob_crbdetails: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ ob_crbiterationdetails: 17570
+2026-03-19 18:31:31 [INFO    ]   ✅ ob_wood: 815
+2026-03-19 18:31:31 [INFO    ]   ✅ ob_wooddetails: 847
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggflakiness: 47822
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggflakinessdetails: 56990
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggflankinessiterations: 455192
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggliquid: 81
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggliquiddetails: 230
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggliquididiterations: 230
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggregate: 70995
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggregateabr: 2445
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggregateabrdetails: 3691
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggregateabriterations: 3689
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggregatedetails: 77508
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggregateiterations: 77319
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggregatestr: 1013
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggregatestrdetails: 2128
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggregatestriterations: 2103
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggsieve: 109024
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggsievedetails: 160019
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggsieveiterations: 728791
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggsoundness: 10
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggsoundnessdetails: 13
+2026-03-19 18:31:31 [INFO    ]   ✅ obaggsoundnessiterations: 26
+2026-03-19 18:31:31 [INFO    ]   ✅ obaluminium: 1481
+2026-03-19 18:31:31 [INFO    ]   ✅ obaluminiumdetails: 1564
+2026-03-19 18:31:31 [INFO    ]   ✅ obaluminiumiterations: 1564
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitudensity: 374
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitudensitydetails: 2121
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitudensityiterations: 2122
+2026-03-19 18:31:31 [INFO    ]   ✅ obbituext1: 14426
+2026-03-19 18:31:31 [INFO    ]   ✅ obbituext1details: 32037
+2026-03-19 18:31:31 [INFO    ]   ✅ obbituext1iterations: 32017
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumarshalldensity: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumarshalldensitydetails: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumarshalldensityiterations: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumen: 18122
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumendetails: 28041
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumenductility: 1649
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumenductilitydetails: 2367
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumenductilityiterations: 2354
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumeniterations: 27993
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumenviscosity: 3994
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumenviscositydetails: 5359
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumenviscosityiterations: 5350
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumix: 1701
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumixdetails: 4008
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumixext2iterations: 8012
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitumixsieveiterations: 34829
+2026-03-19 18:31:31 [INFO    ]   ✅ obbitusieveiterations: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ obbmjobmix: 1900
+2026-03-19 18:31:31 [INFO    ]   ✅ obbmjobmixdetails: 2041
+2026-03-19 18:31:31 [INFO    ]   ✅ obbmjobmixiterations: 16293
+2026-03-19 18:31:31 [INFO    ]   ✅ obbricks: 9443
+2026-03-19 18:31:31 [INFO    ]   ✅ obbricksdetails: 9974
+2026-03-19 18:31:31 [INFO    ]   ✅ obbricksiterations: 49770
+2026-03-19 18:31:31 [INFO    ]   ✅ obcementtest: 25792
+2026-03-19 18:31:31 [INFO    ]   ✅ obcementtestcompstrenght: 301401
+2026-03-19 18:31:31 [INFO    ]   ✅ obcementtestconsistancy: 100467
+2026-03-19 18:31:31 [INFO    ]   ✅ obcementtestdetails: 33693
+2026-03-19 18:31:31 [INFO    ]   ✅ obcementtestfitness: 100467
+2026-03-19 18:31:31 [INFO    ]   ✅ obcementtestsettingtime: 33489
+2026-03-19 18:31:31 [INFO    ]   ✅ obcementtestsoundness: 66978
+2026-03-19 18:31:31 [INFO    ]   ✅ obcementtestspecgravity: 33489
+2026-03-19 18:31:31 [INFO    ]   ✅ obcomprstone: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ obcomprstonedetails: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ obcomprstoneiterations: 0
+2026-03-19 18:31:31 [INFO    ]   ✅ obconcretecore: 26
+2026-03-19 18:31:31 [INFO    ]   ✅ obconcretecoredetails: 54
+2026-03-19 18:31:31 [INFO    ]   ✅ obconcretecoreiterations: 53
+2026-03-19 18:31:31 [INFO    ]   ✅ obconcretecubedetails: 190191
+2026-03-19 18:31:32 [INFO    ]   ✅ obconcretecubeiterationdetails: 186640
+2026-03-19 18:31:32 [INFO    ]   ✅ obconcretecubetest: 64710
+2026-03-19 18:31:32 [INFO    ]   ✅ obdryingtime: 21
+2026-03-19 18:31:32 [INFO    ]   ✅ obdryingtimedetails: 24
+2026-03-19 18:31:32 [INFO    ]   ✅ obdryingtimeiterations: 24
+2026-03-19 18:31:32 [INFO    ]   ✅ obfineaggregate: 26914
+2026-03-19 18:31:32 [INFO    ]   ✅ obfineaggregatedetails: 31480
+2026-03-19 18:31:32 [INFO    ]   ✅ obfineaggsieveiterations: 251328
+2026-03-19 18:31:32 [INFO    ]   ✅ obfineaggslititerations: 31416
+2026-03-19 18:31:32 [INFO    ]   ✅ obflooringstone: 326
+2026-03-19 18:31:32 [INFO    ]   ✅ obflooringstonedetails: 484
+2026-03-19 18:31:32 [INFO    ]   ✅ obflooringstoneiterations: 475
+2026-03-19 18:31:32 [INFO    ]   ✅ obflybricks: 1355
+2026-03-19 18:31:32 [INFO    ]   ✅ obflybricksdetails: 1898
+2026-03-19 18:31:32 [INFO    ]   ✅ obflybricksiterations: 9480
+2026-03-19 18:31:32 [INFO    ]   ✅ obglassbeads: 25
+2026-03-19 18:31:32 [INFO    ]   ✅ obglassbeadsdetails: 28
+2026-03-19 18:31:32 [INFO    ]   ✅ obglassbeadsiterations: 28
+2026-03-19 18:31:32 [INFO    ]   ✅ obgsbsieve: 3848
+2026-03-19 18:31:32 [INFO    ]   ✅ obgsbsievedetails: 11313
+2026-03-19 18:31:32 [INFO    ]   ✅ obgsbsieveiterations: 92173
+2026-03-19 18:31:32 [INFO    ]   ✅ obhollow: 526
+2026-03-19 18:31:32 [INFO    ]   ✅ obhollowdetails: 954
+2026-03-19 18:31:32 [INFO    ]   ✅ obhollowiterations: 2856
+2026-03-19 18:31:32 [INFO    ]   ✅ obmangloretiledetails: 141
+2026-03-19 18:31:32 [INFO    ]   ✅ obmangloretileiterations: 846
+2026-03-19 18:31:32 [INFO    ]   ✅ obmangloretiles: 138
+2026-03-19 18:31:32 [INFO    ]   ✅ obmarshallstabilitydetails: 90
+2026-03-19 18:31:32 [INFO    ]   ✅ obmarshallstabilityiterationdetails: 270
+2026-03-19 18:31:32 [INFO    ]   ✅ obmarshallstabilitytest: 28
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixbituminuosconcrete: 831
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixbituminuosconcretedetails: 858
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixbituminuosconcreteiterations: 9307
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixclosegradedpremix: 0
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixclosegradedpremixdetails: 0
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixclosegradedpremixiterations: 0
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixconcretemixaccldesign: 8811
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixconcretemixaccldesigndetails: 8875
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixconcretemixaccldesigniterations: 8869
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixconcretemixdesign: 2337
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixconcretemixdesigndetails: 2370
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixconcretemixdesigniterations: 2366
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesigndbm: 399
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesigndbmdetails: 429
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesigndbmiterations: 3852
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesigngsb: 3213
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesigngsbdetails: 3898
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesigngsbiterations: 31039
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesignsbdc: 1
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesignsbdcdetails: 1
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesignsbdciterations: 8
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesignwetmix: 304
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesignwetmixdetails: 331
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdesignwetmixiterations: 2926
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdlc: 169
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdlcdetails: 164
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixdlciterations: 656
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixpqc: 480
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixpqcdetails: 483
+2026-03-19 18:31:32 [INFO    ]   ✅ obmixpqciterations: 1919
+2026-03-19 18:31:32 [INFO    ]   ✅ obmorterdetails: 13068
+2026-03-19 18:31:32 [INFO    ]   ✅ obmorteriterationdetails: 13054
+2026-03-19 18:31:32 [INFO    ]   ✅ obmortertest: 7270
+2026-03-19 18:31:32 [INFO    ]   ✅ obmurrumcompct: 0
+2026-03-19 18:31:32 [INFO    ]   ✅ obmurrumcompctcbr: 8569
+2026-03-19 18:31:32 [INFO    ]   ✅ obmurumcompactcbrdetails: 14122
+2026-03-19 18:31:32 [INFO    ]   ✅ obmurumcompactdetails: 0
+2026-03-19 18:31:32 [INFO    ]   ✅ obmurumcompactiterations: 14047
+2026-03-19 18:31:32 [INFO    ]   ✅ obmurumliquid: 30941
+2026-03-19 18:31:32 [INFO    ]   ✅ obmurumliquiddetails: 56030
+2026-03-19 18:31:32 [INFO    ]   ✅ obmurumliquididiterations: 55988
+2026-03-19 18:31:32 [INFO    ]   ✅ obmurumsieve: 25294
+2026-03-19 18:31:32 [INFO    ]   ✅ obmurumsievedetails: 49957
+2026-03-19 18:31:33 [INFO    ]   ✅ obmurumsieveiterations: 149634
+2026-03-19 18:31:33 [INFO    ]   ✅ obmurumswell: 8
+2026-03-19 18:31:33 [INFO    ]   ✅ obmurumswelldetails: 19
+2026-03-19 18:31:34 [INFO    ]   ✅ obmurumswelliterations: 19
+2026-03-19 18:31:34 [INFO    ]   ✅ obparticalboard: 9
+2026-03-19 18:31:34 [INFO    ]   ✅ obparticaldetails: 10
+2026-03-19 18:31:34 [INFO    ]   ✅ obparticaliterations: 10
+2026-03-19 18:31:34 [INFO    ]   ✅ obpavingblock: 7772
+2026-03-19 18:31:34 [INFO    ]   ✅ obpavingdetails: 8592
+2026-03-19 18:31:34 [INFO    ]   ✅ obpavingiterationdetails: 68672
+2026-03-19 18:31:34 [INFO    ]   ✅ obpipe: 156
+2026-03-19 18:31:34 [INFO    ]   ✅ obpipedetails: 455
+2026-03-19 18:31:34 [INFO    ]   ✅ obpipeiterations: 452
+2026-03-19 18:31:34 [INFO    ]   ✅ obplywood: 346
+2026-03-19 18:31:34 [INFO    ]   ✅ obplywooddetails: 372
+2026-03-19 18:31:34 [INFO    ]   ✅ obplywooditerations: 372
+2026-03-19 18:31:34 [INFO    ]   ✅ observationcombo: 125
+2026-03-19 18:31:34 [INFO    ]   ✅ obsoftening: 25
+2026-03-19 18:31:34 [INFO    ]   ✅ obsofteningdetails: 30
+2026-03-19 18:31:34 [INFO    ]   ✅ obsofteningiterations: 30
+2026-03-19 18:31:34 [INFO    ]   ✅ obsteel: 5140
+2026-03-19 18:31:34 [INFO    ]   ✅ obsteeldetails: 11080
+2026-03-19 18:31:34 [INFO    ]   ✅ obsteeliterations: 10933
+2026-03-19 18:31:34 [INFO    ]   ✅ obstone: 7970
+2026-03-19 18:31:34 [INFO    ]   ✅ obstonedetails: 8464
+2026-03-19 18:31:34 [INFO    ]   ✅ obstoneiterations: 8455
+2026-03-19 18:31:34 [INFO    ]   ✅ obtiledetails: 5549
+2026-03-19 18:31:34 [INFO    ]   ✅ obtileiterations: 33288
+2026-03-19 18:31:34 [INFO    ]   ✅ obtiles: 4773
+2026-03-19 18:31:34 [INFO    ]   ✅ outwardno: 0
+2026-03-19 18:31:34 [INFO    ]   ✅ paymentdetails: 0
+2026-03-19 18:31:34 [INFO    ]   ✅ periodmaster: 2
+2026-03-19 18:31:34 [INFO    ]   ✅ pwdenggmaster: 0
+2026-03-19 18:31:34 [INFO    ]   ✅ pwdregionmaster: 1566
+2026-03-19 18:31:34 [INFO    ]   ✅ pwdregionmasterold: 877
+2026-03-19 18:31:34 [INFO    ]   ✅ raggliquid: 11310
+2026-03-19 18:31:34 [INFO    ]   ✅ raggregat: 173215
+2026-03-19 18:31:34 [INFO    ]   ✅ raluminium: 1551
+2026-03-19 18:31:34 [INFO    ]   ✅ rbitudensity: 2120
+2026-03-19 18:31:34 [INFO    ]   ✅ rbituemix: 0
+2026-03-19 18:31:34 [INFO    ]   ✅ rbituext: 31979
+2026-03-19 18:31:34 [INFO    ]   ✅ rbitumarshalldensity: 0
+2026-03-19 18:31:35 [INFO    ]   ✅ rbitumen: 28301
+2026-03-19 18:31:35 [INFO    ]   ✅ rbitumix: 3996
+2026-03-19 18:31:35 [INFO    ]   ✅ rbricks: 49325
+2026-03-19 18:31:35 [INFO    ]   ✅ rcementtest: 33236
+2026-03-19 18:31:35 [INFO    ]   ✅ rclosegradedpremix: 0
+2026-03-19 18:31:35 [INFO    ]   ✅ rcomprstone: 0
+2026-03-19 18:31:35 [INFO    ]   ✅ rconcretecore: 42
+2026-03-19 18:31:36 [INFO    ]   ✅ rconcretecube: 185419
+2026-03-19 18:31:36 [INFO    ]   ✅ receipemaster: 75
+2026-03-19 18:31:36 [INFO    ]   ✅ receipemasterold: 0
+2026-03-19 18:31:36 [INFO    ]   ✅ reportmpr: 12
+2026-03-19 18:31:36 [INFO    ]   ✅ rfineaggregat: 31253
+2026-03-19 18:31:36 [INFO    ]   ✅ rflooringstone: 471
+2026-03-19 18:31:36 [INFO    ]   ✅ rflyashbricks: 9390
+2026-03-19 18:31:36 [INFO    ]   ✅ rgipvcpipe: 456
+2026-03-19 18:31:36 [INFO    ]   ✅ rhollowblock: 944
+2026-03-19 18:31:36 [INFO    ]   ✅ rmangloretiles: 141
+2026-03-19 18:31:36 [INFO    ]   ✅ rmarshallstability: 164
+2026-03-19 18:31:36 [INFO    ]   ✅ rmixbituminousconcrete: 843
+2026-03-19 18:31:36 [INFO    ]   ✅ rmixconcretemixdesign: 11026
+2026-03-19 18:31:36 [INFO    ]   ✅ rmixdbm: 428
+2026-03-19 18:31:36 [INFO    ]   ✅ rmixdlc: 159
+2026-03-19 18:31:36 [INFO    ]   ✅ rmixgsb: 3867
+2026-03-19 18:31:36 [INFO    ]   ✅ rmixpqc: 461
+2026-03-19 18:31:36 [INFO    ]   ✅ rmixsdbc: 1
+2026-03-19 18:31:37 [INFO    ]   ✅ rmorter: 12987
+2026-03-19 18:31:37 [INFO    ]   ✅ rmurrum: 73091
+2026-03-19 18:31:37 [INFO    ]   ✅ rpavingblock: 8563
+2026-03-19 18:31:37 [INFO    ]   ✅ rplywood: 369
+2026-03-19 18:31:37 [INFO    ]   ✅ rprticalboard: 10
+2026-03-19 18:31:37 [INFO    ]   ✅ rsteel: 10825
+2026-03-19 18:31:37 [INFO    ]   ✅ rstone: 8399
+2026-03-19 18:31:37 [INFO    ]   ✅ rthermoplastic: 40
+2026-03-19 18:31:37 [INFO    ]   ✅ rtiles: 5518
+2026-03-19 18:31:37 [INFO    ]   ✅ rwmm: 323
+2026-03-19 18:31:37 [INFO    ]   ✅ rwood: 834
+2026-03-19 18:31:37 [INFO    ]   ✅ sms_template: 11
+2026-03-19 18:31:37 [INFO    ]   ✅ specifications: 737
+2026-03-19 18:31:37 [INFO    ]   ✅ specificationsold: 0
+2026-03-19 18:31:37 [INFO    ]   ✅ subtestmaster: 109
+2026-03-19 18:31:37 [INFO    ]   ✅ subtestmasterhistory: 0
+2026-03-19 18:31:37 [INFO    ]   ✅ testmaster: 35
+2026-03-19 18:31:37 [INFO    ]   ✅ testmasterlocal: 0
+2026-03-19 18:31:37 [INFO    ]   ✅ testmaterial: 737
+2026-03-19 18:31:37 [INFO    ]   ✅ testreco: 0
+2026-03-19 18:31:37 [INFO    ]   ✅ testscheduler: 142824
+2026-03-19 18:31:37 [INFO    ]   ✅ usermaster: 258
+2026-03-19 18:31:37 [INFO    ]   ✅ userrightsdetails: 1412
+2026-03-19 18:31:38 [INFO    ]   ✅ vw_paid_invoices: 122888
+2026-03-19 18:31:38 [INFO    ]   ✅ vw_unpaid_invoices: 0
+2026-03-19 18:31:38 [INFO    ]   ✅ work_id_sequence: 3
+2026-03-19 18:31:38 [INFO    ]   ✅ work_id_tracker: 4892
+2026-03-19 18:31:38 [INFO    ]   ✅ workmaster: 72967
+2026-03-19 18:31:38 [INFO    ]   ✅ workmaster_pwd: 0
+2026-03-19 18:31:38 [INFO    ] 
+Summary → Matched: 271 | Mismatched: 0
