@@ -13,15 +13,15 @@ MYSQL_CONFIG = {
     "host": "localhost",
     "user": "root",
     "password": "root",
-    "database": "elaboffice_cen"
+    "database": "cyber_users"
 }
 
 PG_CONFIG = {
     "host": "localhost",
     "user": "postgres",
     "password": "postgres",
-    "dbname": "elaboffice_cen3",
-    "schema": "elab"
+    "dbname": "cyber_users",
+    "schema": "cyber"
 }
 
 # ==========================================

@@ -16,15 +16,15 @@ MYSQL_CONFIG = {
     "host": "localhost",
     "user": "root",
     "password": "root",
-    "database": "elaboffice_cen_17Mar2026"
+    "database": "cyber_users"
 }
 
 PG_CONFIG = {
     "host": "localhost",
-    "user": "elab_user",
-    "password": "elab_user",
-    "dbname": "elab_pwd_migrated",
-    "schema": "elab"
+    "user": "cyber_user",
+    "password": "cyber_user",
+    "dbname": "cyber_users",
+    "schema": "cyber"
 }
 
 # ==========================================
@@ -166,7 +166,7 @@ def migrate_schema():
 # -------------------------------------------------------------------
 # 2. Data migration  (COPY with per-table try/except fallback)
 # -------------------------------------------------------------------
-def migrate_data():
+def migrate_data2():
     log.info("=== Migrating Data ===")
     schema = PG_CONFIG["schema"]
 
@@ -253,6 +253,132 @@ def migrate_data():
                     fail += 1
 
             log.info(f"    Fallback done — inserted: {ok}, skipped: {fail}")
+
+    for c in (mysql_cur, pg_cur): c.close()
+    for c in (mysql_conn, pg_conn): c.close()
+    log.info("Data migration complete.\n")
+
+
+def migrate_data():
+    log.info("=== Migrating Data ===")
+    schema = PG_CONFIG["schema"]
+
+    mysql_conn = get_mysql_conn()
+    mysql_cur = mysql_conn.cursor(dictionary=True)
+    pg_conn = get_pg_conn()
+    pg_cur = pg_conn.cursor()
+
+    mysql_cur.execute("SHOW TABLES")
+    tables = [list(row.values())[0] for row in mysql_cur.fetchall()]
+
+    for table in tables:
+        pg_table = to_snake_case(table)
+        log.info(f"  Migrating data: {pg_table}")
+
+        mysql_cur.execute("""
+            SELECT COLUMN_NAME, COLUMN_TYPE, EXTRA
+            FROM INFORMATION_SCHEMA.COLUMNS
+            WHERE TABLE_SCHEMA = %s AND TABLE_NAME = %s
+            ORDER BY ORDINAL_POSITION
+        """, (MYSQL_CONFIG["database"], table))
+        cols_meta = mysql_cur.fetchall()
+
+        # ✅ FIX: Include ALL columns, including auto_increment (PK)
+        mysql_columns = [c["COLUMN_NAME"] for c in cols_meta]
+
+        # Find the PK column name (if any) for sequence handling
+        pk_col_mysql = next(
+            (c["COLUMN_NAME"] for c in cols_meta if "auto_increment" in (c["EXTRA"] or "")),
+            None
+        )
+        pk_col_pg = to_snake_case(pk_col_mysql) if pk_col_mysql else None
+
+        if not mysql_columns:
+            continue
+
+        select_sql = "SELECT {} FROM `{}`".format(
+            ", ".join(f"`{c}`" for c in mysql_columns), table
+        )
+        mysql_cur.execute(select_sql)
+        rows = mysql_cur.fetchall()
+        if not rows:
+            log.info(f"    (no rows, skipping)")
+            continue
+
+        pg_columns = [to_snake_case(c) for c in mysql_columns]
+        col_list = ", ".join(f'"{c}"' for c in pg_columns)
+
+        # ✅ FIX: Drop the SERIAL default so COPY can insert explicit PK values
+        if pk_col_pg:
+            seq_name = f"{schema}.{pg_table}_{pk_col_pg}_seq"
+            try:
+                pg_cur.execute(
+                    f'ALTER TABLE "{schema}"."{pg_table}" '
+                    f'ALTER COLUMN "{pk_col_pg}" DROP DEFAULT;'
+                )
+                pg_conn.commit()
+            except Exception as e:
+                pg_conn.rollback()
+                log.warning(f"  Could not drop default for {pg_table}.{pk_col_pg}: {e}")
+
+        # --- build CSV buffer ---
+        buf = StringIO()
+        writer = csv.writer(buf, quoting=csv.QUOTE_MINIMAL)
+        for row in rows:
+            writer.writerow([row[c] for c in mysql_columns])
+        buf.seek(0)
+
+        copy_sql = (
+            f'COPY "{schema}"."{pg_table}" ({col_list}) '
+            f"FROM STDIN WITH CSV NULL ''"
+        )
+
+        # Primary path: fast COPY
+        try:
+            pg_cur.copy_expert(copy_sql, buf)
+            pg_conn.commit()
+
+        except Exception as copy_err:
+            pg_conn.rollback()
+            log.warning(
+                f"    COPY failed for {pg_table} ({copy_err}). "
+                f"Falling back to row-by-row insert…"
+            )
+
+            # ✅ FIX: Use OVERRIDING SYSTEM VALUE to force explicit PK values
+            placeholders = ", ".join(["%s"] * len(pg_columns))
+            insert_sql = (
+                f'INSERT INTO "{schema}"."{pg_table}" ({col_list}) '
+                f"OVERRIDING SYSTEM VALUE "
+                f"VALUES ({placeholders})"
+            )
+            ok = fail = 0
+            for row in rows:
+                values = [row[c] for c in mysql_columns]
+                try:
+                    pg_cur.execute(insert_sql, values)
+                    pg_conn.commit()
+                    ok += 1
+                except Exception as row_err:
+                    pg_conn.rollback()
+                    log.error(f"      Skipped row in {pg_table}: {row_err} | data={values}")
+                    fail += 1
+
+            log.info(f"    Fallback done — inserted: {ok}, skipped: {fail}")
+
+        # ✅ FIX: Restore the SERIAL default after COPY
+        if pk_col_pg:
+            seq_name = f'"{schema}"."{pg_table}_{pk_col_pg}_seq"'
+            try:
+                pg_cur.execute(
+                    f'ALTER TABLE "{schema}"."{pg_table}" '
+                    f'ALTER COLUMN "{pk_col_pg}" '
+                    f'SET DEFAULT nextval({seq_name!r});'
+                )
+                pg_conn.commit()
+            except Exception as e:
+                pg_conn.rollback()
+                log.warning(f"  Could not restore default for {pg_table}.{pk_col_pg}: {e}")
 
     for c in (mysql_cur, pg_cur): c.close()
     for c in (mysql_conn, pg_conn): c.close()
